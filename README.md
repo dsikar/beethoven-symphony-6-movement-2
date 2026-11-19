@@ -21,6 +21,8 @@ The original horn staves are in B♭ basso. Their transposition must be consider
 
 The working score includes **Trumpet 1 in B♭** and **Trumpet 2 in B♭**, adapted from the corresponding horn lines using octave changes that preserve both chord tones. Both trumpet parts span written **G3–F5**; [the register change log](TRUMPET-REGISTER-ADAPTATION.md) records every adjusted note by bar and position. The retained horns are muted for substitution playback, and both trumpet staves use MuseSounds Trumpet. The score also contains native linked **Trumpet 1 in B♭** and **Trumpet 2 in B♭** player parts. Open them through **Parts** in MuseScore. The three-page A4 PDFs are [Trumpet 1](parts/Trumpet-1-in-Bb.pdf) and [Trumpet 2](parts/Trumpet-2-in-Bb.pdf); [player-part notes](PLAYER-PARTS.md) describe cues, page turns and validation for [#9](https://github.com/dsikar/beethoven-symphony-6-movement-2/issues/9).
 
+The horn-to-trumpet dynamics comparison and confirmed corrections are recorded in [DYNAMICS-AUDIT.md](DYNAMICS-AUDIT.md), including the source reading **fp cresc.** at bar 6.
+
 ## Tracking changes
 
 Every subsequent score change starts with a GitHub **feature request**, including corrections and engraving changes:
