@@ -11,7 +11,7 @@ Each part has three A4 pages, 7 mm staves, multimeasure rests, system-start bar 
 
 ## Cues
 
-Cues appear only in the player parts, in a second voice underneath the linked full-bar rest. They are small and have playback disabled note by note. The label **(8va)** means the cue is shown one octave above its source, then transposed normally for B♭ trumpet, for a readable treble-clef register. Cue phrases omit slurs and ties; played articulations and ties are unchanged.
+Cues appear only in the player parts, in a second voice underneath the linked full-bar rest. They are small and have playback disabled note by note. At all cue bars (27, 36, 55, 56, 66 and 108), the accompanying full-bar rest hangs from the top staff line F5 into the E5 space, following the horn-part convention; its full-bar duration in 12/8 is unchanged. The label **(8va)** means the cue is shown one octave above its source, then transposed normally for B♭ trumpet, for a readable treble-clef register. Cue phrases omit slurs and ties; played articulations and ties are unchanged.
 
 | Bars | Label | Source in current score | Parts |
 | --- | --- | --- | --- |
@@ -25,7 +25,7 @@ Cue instruments and locations were informed by the immutable horn scans, movemen
 
 ## Validation
 
-- MuseScore loaded and saved both native excerpts. Every saved excerpt link resolves to an element in the master: 1,191 links in Trumpet 1 and 1,187 in Trumpet 2. All 404 and 406 played notes respectively match their master notes in sounding pitch and both spellings.
+- MuseScore loaded and saved both native excerpts. Every saved excerpt link resolves to an element in the master: 1,186 links in Trumpet 1 and 1,182 in Trumpet 2. All 404 and 406 played notes respectively match their master notes in sounding pitch and both spellings.
 - All 38 cue notes per part match the named source at the documented octave, with correct B♭ spelling, small notation and `play=0`.
 - MIDI exports before and after cue preparation contain identical sounding notes: 331 in Trumpet 1 and 334 in Trumpet 2 after ties are joined. Pitches, start and end times, velocities and tempo events agree exactly. Cues add zero MIDI note events. This is a MIDI playback comparison; no live MuseSounds audition is claimed.
 - All six PDF pages were inspected for cues, rests, A–H, stems, beaming, dynamics, spacing and page turns.
@@ -33,3 +33,5 @@ Cue instruments and locations were informed by the immutable horn scans, movemen
 - `originals/` and `references/` are unchanged. Original source and licence metadata remain embedded in the score and printed on the parts.
 
 The older untracked trumpet drafts are separate historical files; the linked parts and PDFs above supersede them for this orchestral adaptation.
+
+The rest placement was corrected in [#15](https://github.com/dsikar/beethoven-symphony-6-movement-2/issues/15) by correcting the six cue-bar rest offsets in each part. Bars 27, 36, 55, 56 and 66 use zero offset; bar 108 uses a two-space downward offset to compensate for MuseScore automatically raising the rest above the higher cue notes. Only those 12 rest positions changed in the score; the master score, part links, cues, duration values, page breaks and playback settings were preserved.
