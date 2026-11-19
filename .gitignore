@@ -1,0 +1,22 @@
+# Ignore everything unless explicitly listed below.
+*
+
+!/.gitignore
+!/README.md
+!/AGENTS.md
+
+!/source/
+!/source/Beethoven_Op.68_2.mscz
+
+!/originals/
+!/originals/Beethoven_Op.68_2.mscz
+
+!/references/
+!/references/Beethoven_6_Score.pdf
+!/references/Beethoven_6_Hrns.pdf
+
+!/.github/
+!/.github/ISSUE_TEMPLATE/
+!/.github/ISSUE_TEMPLATE/feature_request.yml
+!/.github/ISSUE_TEMPLATE/config.yml
+!/.github/pull_request_template.md

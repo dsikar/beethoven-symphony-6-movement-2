@@ -1,0 +1,32 @@
+name: Feature request
+description: Request a musical, transposition, notation or engraving change.
+title: "[Score] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: Requested change
+      description: What should change, and why?
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Bars and instruments
+      description: Include rehearsal marks or page references if useful.
+      placeholder: "e.g. bars 30–32, Trumpet 2"
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected result and checks
+      description: Describe the intended notation, sounding result, register or layout, and how to verify it.
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference material
+      description: Optional links, source-part page numbers, or examples.
