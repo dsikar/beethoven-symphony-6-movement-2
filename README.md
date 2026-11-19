@@ -19,7 +19,7 @@ Open the working score in MuseScore Studio 4. Its instruments are assigned to Mu
 
 The original horn staves are in B♭ basso. Their transposition must be considered when adapting them for B♭ trumpets. A playback patch labelled “Horn in F” does not change the staff’s written transposition.
 
-The working score now includes **Trumpet 1 in B♭** and **Trumpet 2 in B♭**, copied from the corresponding horn lines at their original sounding pitches. The retained horns are muted for substitution playback; both trumpet staves use MuseSounds Trumpet. This is an exact-pitch baseline: Trumpet 2 still contains notes below the intended playing range. [Register adaptation (#8)](https://github.com/dsikar/beethoven-symphony-6-movement-2/issues/8) and [player-part preparation (#9)](https://github.com/dsikar/beethoven-symphony-6-movement-2/issues/9) remain separate tasks.
+The working score includes **Trumpet 1 in B♭** and **Trumpet 2 in B♭**, adapted from the corresponding horn lines using octave changes that preserve both chord tones. Both trumpet parts span written **G3–F5**; [the register change log](TRUMPET-REGISTER-ADAPTATION.md) records every adjusted note by bar and position. The retained horns are muted for substitution playback, and both trumpet staves use MuseSounds Trumpet. [Player-part preparation (#9)](https://github.com/dsikar/beethoven-symphony-6-movement-2/issues/9) remains a separate task.
 
 ## Tracking changes
 
