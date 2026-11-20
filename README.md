@@ -23,6 +23,8 @@ The working score includes **Trumpet 1 in B♭** and **Trumpet 2 in B♭**, adap
 
 The horn-to-trumpet dynamics comparison and confirmed corrections are recorded in [DYNAMICS-AUDIT.md](DYNAMICS-AUDIT.md), including the source reading **fp cresc.** at bar 6.
 
+The complete orchestral [MP3 with trumpets and no horns](audio/Beethoven-6-movement-2-trumpets-no-horns.mp3) is 11:11, 320 kbps stereo. [AUDIO-EXPORT.md](AUDIO-EXPORT.md) records source provenance, reliable horn exclusion, export settings and technical validation.
+
 ## Tracking changes
 
 Every subsequent score change starts with a GitHub **feature request**, including corrections and engraving changes:
